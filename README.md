@@ -1,5 +1,7 @@
 # MondayBrief
 
+Made by [Shivam](https://github.com/shivamofficial81)
+
 An automated weekly sales report for small online stores. It reads your sales data, works out
 how the week went, and writes a one-page branded PDF with a plain-English summary and one
 recommended action. It runs itself every Monday morning on GitHub Actions and commits the PDF
@@ -155,8 +157,8 @@ Safety notes:
 You need Python 3.11 or newer.
 
 ```powershell
-git clone https://github.com/<your-username>/<this-repo>.git
-cd <this-repo>
+git clone https://github.com/shivamofficial81/mondaybrief.git
+cd mondaybrief
 
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
@@ -214,3 +216,14 @@ onto a second page, so the report stays on one A4 page.
 
 A web interface, a database, Google sign-in, more than one template, Slack delivery and
 multiple stores are deliberately not part of this project.
+
+## License
+
+[MIT](LICENSE) — use it, change it, build on it. Keep the copyright notice.
+
+## About
+
+Built by **Shivam** — automation and data tooling for small businesses: scheduled reports,
+spreadsheet pipelines, and the recurring manual work that should run itself.
+
+[github.com/shivamofficial81](https://github.com/shivamofficial81)
