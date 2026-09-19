@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# Secrets — never commit credentials
+.env
+.env.*
+!.env.example
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Playwright
+.playwright/
+test-results/
+
+# Local design-tooling cache
+.impeccable/
+
+# Scratch output (reports/ is committed on purpose: it holds the dated PDFs)
+output/
+*.tmp
+*.log

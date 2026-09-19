@@ -1,0 +1,3 @@
+# Only needed to regenerate the README screenshot (scripts/make_docs_assets.py).
+# The report itself runs on requirements.txt alone.
+pymupdf>=1.24

@@ -1,0 +1,910 @@
+Date,Product,Region,Amount
+2026-07-20,Soy Candle,Europe,54.00
+2026-07-20,Ceramic Mug,Europe,24.00
+2026-07-20,Soy Candle,Europe,36.00
+2026-07-20,Desk Plant Pot,Europe,28.00
+2026-07-20,Notebook Set,North America,45.00
+2026-07-20,Leather Card Holder,North America,38.00
+2026-07-20,Ceramic Mug,UK,48.00
+2026-07-20,Ceramic Mug,Europe,24.00
+2026-07-20,Enamel Pin Pack,North America,24.00
+2026-07-20,Throw Blanket,Europe,68.00
+2026-07-20,Ceramic Mug,North America,24.00
+2026-07-20,Soy Candle,Asia Pacific,18.00
+2026-07-20,Enamel Pin Pack,UK,12.00
+2026-07-20,Linen Tote Bag,Asia Pacific,32.00
+2026-07-20,Enamel Pin Pack,Asia Pacific,12.00
+2026-07-20,Desk Plant Pot,North America,28.00
+2026-07-21,Notebook Set,Europe,15.00
+2026-07-21,Linen Tote Bag,Europe,32.00
+2026-07-21,Linen Tote Bag,UK,32.00
+2026-07-21,Ceramic Mug,Europe,24.00
+2026-07-21,Throw Blanket,Asia Pacific,61.20
+2026-07-21,Throw Blanket,UK,68.00
+2026-07-21,Notebook Set,Europe,15.00
+2026-07-21,Soy Candle,UK,18.00
+2026-07-21,Ceramic Mug,North America,24.00
+2026-07-21,Enamel Pin Pack,Europe,12.00
+2026-07-21,Soy Candle,Europe,18.00
+2026-07-21,Linen Tote Bag,Europe,32.00
+2026-07-21,Linen Tote Bag,Europe,32.00
+2026-07-21,Linen Tote Bag,North America,32.00
+2026-07-22,Desk Plant Pot,North America,28.00
+2026-07-22,Soy Candle,North America,18.00
+2026-07-22,Desk Plant Pot,UK,84.00
+2026-07-22,Ceramic Mug,North America,43.20
+2026-07-22,Leather Card Holder,UK,38.00
+2026-07-22,Linen Tote Bag,North America,32.00
+2026-07-22,Enamel Pin Pack,Europe,12.00
+2026-07-22,Notebook Set,UK,15.00
+2026-07-22,Linen Tote Bag,Europe,32.00
+2026-07-22,Enamel Pin Pack,Asia Pacific,24.00
+2026-07-22,Notebook Set,Europe,15.00
+2026-07-22,Notebook Set,North America,13.50
+2026-07-22,Soy Candle,North America,36.00
+2026-07-22,Enamel Pin Pack,North America,12.00
+2026-07-22,Leather Card Holder,Asia Pacific,38.00
+2026-07-23,Ceramic Mug,North America,48.00
+2026-07-23,Enamel Pin Pack,Asia Pacific,12.00
+2026-07-23,Ceramic Mug,UK,24.00
+2026-07-23,Linen Tote Bag,North America,32.00
+2026-07-23,Leather Card Holder,North America,38.00
+2026-07-23,Enamel Pin Pack,North America,12.00
+2026-07-23,Linen Tote Bag,North America,32.00
+2026-07-23,Leather Card Holder,UK,38.00
+2026-07-23,Notebook Set,North America,13.50
+2026-07-23,Ceramic Mug,North America,24.00
+2026-07-23,Enamel Pin Pack,North America,24.00
+2026-07-23,Desk Plant Pot,North America,28.00
+2026-07-23,Linen Tote Bag,North America,32.00
+2026-07-23,Desk Plant Pot,North America,28.00
+2026-07-23,Notebook Set,North America,13.50
+2026-07-23,Soy Candle,UK,18.00
+2026-07-24,Desk Plant Pot,UK,28.00
+2026-07-24,Soy Candle,North America,18.00
+2026-07-24,Leather Card Holder,North America,38.00
+2026-07-24,Ceramic Mug,Asia Pacific,24.00
+2026-07-24,Soy Candle,North America,32.40
+2026-07-24,Soy Candle,North America,18.00
+2026-07-24,Notebook Set,Asia Pacific,15.00
+2026-07-24,Enamel Pin Pack,Europe,10.80
+2026-07-24,Soy Candle,North America,18.00
+2026-07-24,Notebook Set,North America,15.00
+2026-07-24,Enamel Pin Pack,North America,12.00
+2026-07-24,Ceramic Mug,UK,24.00
+2026-07-24,Leather Card Holder,Europe,38.00
+2026-07-24,Desk Plant Pot,UK,84.00
+2026-07-25,Throw Blanket,Europe,68.00
+2026-07-25,Ceramic Mug,North America,24.00
+2026-07-25,Ceramic Mug,North America,24.00
+2026-07-25,Soy Candle,Asia Pacific,18.00
+2026-07-25,Throw Blanket,Asia Pacific,68.00
+2026-07-25,Linen Tote Bag,UK,32.00
+2026-07-25,Notebook Set,North America,15.00
+2026-07-25,Notebook Set,Europe,15.00
+2026-07-25,Enamel Pin Pack,Europe,12.00
+2026-07-25,Linen Tote Bag,Asia Pacific,32.00
+2026-07-25,Soy Candle,North America,18.00
+2026-07-25,Throw Blanket,North America,68.00
+2026-07-25,Ceramic Mug,Europe,24.00
+2026-07-25,Soy Candle,Asia Pacific,36.00
+2026-07-25,Notebook Set,Asia Pacific,15.00
+2026-07-25,Ceramic Mug,Asia Pacific,24.00
+2026-07-26,Notebook Set,Europe,15.00
+2026-07-26,Linen Tote Bag,Europe,32.00
+2026-07-26,Throw Blanket,Europe,68.00
+2026-07-26,Ceramic Mug,Europe,24.00
+2026-07-26,Soy Candle,UK,18.00
+2026-07-26,Leather Card Holder,UK,38.00
+2026-07-26,Notebook Set,North America,15.00
+2026-07-26,Soy Candle,North America,18.00
+2026-07-26,Linen Tote Bag,UK,28.80
+2026-07-26,Notebook Set,North America,30.00
+2026-07-26,Desk Plant Pot,North America,84.00
+2026-07-26,Soy Candle,North America,18.00
+2026-07-26,Desk Plant Pot,UK,56.00
+2026-07-26,Notebook Set,North America,15.00
+2026-07-26,Soy Candle,North America,18.00
+2026-07-26,Ceramic Mug,UK,24.00
+2026-07-26,Leather Card Holder,Europe,38.00
+2026-07-26,Soy Candle,North America,18.00
+2026-07-27,Notebook Set,UK,15.00
+2026-07-27,Ceramic Mug,North America,21.60
+2026-07-27,Throw Blanket,North America,68.00
+2026-07-27,Soy Candle,North America,36.00
+2026-07-27,Desk Plant Pot,North America,28.00
+2026-07-27,Soy Candle,Asia Pacific,18.00
+2026-07-27,Leather Card Holder,North America,38.00
+2026-07-27,Enamel Pin Pack,North America,36.00
+2026-07-27,Notebook Set,North America,15.00
+2026-07-27,Notebook Set,Asia Pacific,15.00
+2026-07-27,Ceramic Mug,North America,21.60
+2026-07-27,Soy Candle,Europe,18.00
+2026-07-27,Enamel Pin Pack,North America,12.00
+2026-07-27,Throw Blanket,Europe,68.00
+2026-07-27,Soy Candle,UK,54.00
+2026-07-27,Desk Plant Pot,UK,56.00
+2026-07-28,Enamel Pin Pack,North America,12.00
+2026-07-28,Linen Tote Bag,UK,32.00
+2026-07-28,Ceramic Mug,UK,24.00
+2026-07-28,Linen Tote Bag,Europe,32.00
+2026-07-28,Throw Blanket,North America,68.00
+2026-07-28,Desk Plant Pot,UK,28.00
+2026-07-28,Soy Candle,Europe,32.40
+2026-07-28,Ceramic Mug,Europe,24.00
+2026-07-28,Throw Blanket,UK,68.00
+2026-07-28,Soy Candle,North America,18.00
+2026-07-28,Ceramic Mug,Asia Pacific,24.00
+2026-07-28,Ceramic Mug,North America,48.00
+2026-07-28,Soy Candle,Europe,18.00
+2026-07-28,Soy Candle,North America,32.40
+2026-07-28,Notebook Set,North America,15.00
+2026-07-28,Desk Plant Pot,Europe,28.00
+2026-07-29,Ceramic Mug,UK,24.00
+2026-07-29,Ceramic Mug,UK,48.00
+2026-07-29,Enamel Pin Pack,North America,24.00
+2026-07-29,Linen Tote Bag,North America,32.00
+2026-07-29,Enamel Pin Pack,Europe,12.00
+2026-07-29,Linen Tote Bag,Europe,32.00
+2026-07-29,Linen Tote Bag,Asia Pacific,28.80
+2026-07-29,Soy Candle,North America,18.00
+2026-07-29,Leather Card Holder,UK,38.00
+2026-07-29,Desk Plant Pot,Asia Pacific,28.00
+2026-07-29,Enamel Pin Pack,North America,10.80
+2026-07-29,Linen Tote Bag,North America,32.00
+2026-07-29,Desk Plant Pot,North America,28.00
+2026-07-29,Notebook Set,Asia Pacific,13.50
+2026-07-29,Enamel Pin Pack,North America,12.00
+2026-07-29,Linen Tote Bag,UK,32.00
+2026-07-29,Soy Candle,North America,54.00
+2026-07-30,Ceramic Mug,North America,24.00
+2026-07-30,Enamel Pin Pack,Asia Pacific,24.00
+2026-07-30,Linen Tote Bag,Europe,32.00
+2026-07-30,Ceramic Mug,UK,48.00
+2026-07-30,Notebook Set,Asia Pacific,15.00
+2026-07-30,Leather Card Holder,North America,38.00
+2026-07-30,Notebook Set,Europe,15.00
+2026-07-30,Leather Card Holder,Europe,38.00
+2026-07-30,Desk Plant Pot,Europe,84.00
+2026-07-30,Ceramic Mug,North America,24.00
+2026-07-30,Leather Card Holder,Europe,38.00
+2026-07-30,Leather Card Holder,North America,38.00
+2026-07-30,Notebook Set,Europe,15.00
+2026-07-31,Leather Card Holder,North America,38.00
+2026-07-31,Notebook Set,North America,45.00
+2026-07-31,Soy Candle,UK,54.00
+2026-07-31,Soy Candle,North America,32.40
+2026-07-31,Linen Tote Bag,Asia Pacific,32.00
+2026-07-31,Desk Plant Pot,Europe,56.00
+2026-07-31,Throw Blanket,North America,68.00
+2026-07-31,Ceramic Mug,Europe,24.00
+2026-07-31,Leather Card Holder,UK,34.20
+2026-07-31,Enamel Pin Pack,Europe,12.00
+2026-07-31,Notebook Set,UK,15.00
+2026-07-31,Desk Plant Pot,Europe,56.00
+2026-07-31,Throw Blanket,Europe,68.00
+2026-07-31,Notebook Set,Europe,15.00
+2026-07-31,Ceramic Mug,Asia Pacific,24.00
+2026-07-31,Enamel Pin Pack,North America,12.00
+2026-08-01,Ceramic Mug,Europe,21.60
+2026-08-01,Soy Candle,UK,18.00
+2026-08-01,Notebook Set,North America,15.00
+2026-08-01,Notebook Set,North America,30.00
+2026-08-01,Desk Plant Pot,North America,56.00
+2026-08-01,Soy Candle,UK,18.00
+2026-08-01,Enamel Pin Pack,North America,12.00
+2026-08-01,Notebook Set,North America,13.50
+2026-08-01,Linen Tote Bag,UK,32.00
+2026-08-01,Linen Tote Bag,Asia Pacific,32.00
+2026-08-01,Linen Tote Bag,North America,32.00
+2026-08-01,Notebook Set,Europe,45.00
+2026-08-01,Linen Tote Bag,Europe,32.00
+2026-08-01,Soy Candle,North America,18.00
+2026-08-01,Linen Tote Bag,Europe,32.00
+2026-08-01,Throw Blanket,North America,68.00
+2026-08-01,Soy Candle,UK,18.00
+2026-08-01,Notebook Set,North America,30.00
+2026-08-01,Ceramic Mug,Asia Pacific,24.00
+2026-08-01,Desk Plant Pot,Asia Pacific,28.00
+2026-08-02,Soy Candle,North America,18.00
+2026-08-02,Ceramic Mug,Europe,24.00
+2026-08-02,Ceramic Mug,UK,24.00
+2026-08-02,Soy Candle,Asia Pacific,36.00
+2026-08-02,Soy Candle,North America,18.00
+2026-08-02,Soy Candle,North America,18.00
+2026-08-02,Ceramic Mug,UK,48.00
+2026-08-02,Leather Card Holder,Europe,38.00
+2026-08-02,Enamel Pin Pack,Europe,12.00
+2026-08-02,Linen Tote Bag,North America,32.00
+2026-08-02,Enamel Pin Pack,North America,12.00
+2026-08-02,Notebook Set,North America,15.00
+2026-08-02,Ceramic Mug,North America,24.00
+2026-08-02,Throw Blanket,Asia Pacific,68.00
+2026-08-02,Desk Plant Pot,Europe,56.00
+2026-08-02,Soy Candle,Asia Pacific,18.00
+2026-08-03,Soy Candle,UK,18.00
+2026-08-03,Desk Plant Pot,North America,28.00
+2026-08-03,Ceramic Mug,Asia Pacific,24.00
+2026-08-03,Notebook Set,UK,15.00
+2026-08-03,Linen Tote Bag,Asia Pacific,32.00
+2026-08-03,Ceramic Mug,UK,24.00
+2026-08-03,Enamel Pin Pack,Europe,24.00
+2026-08-03,Soy Candle,Asia Pacific,18.00
+2026-08-03,Leather Card Holder,Europe,38.00
+2026-08-03,Linen Tote Bag,UK,32.00
+2026-08-03,Notebook Set,Europe,13.50
+2026-08-03,Notebook Set,North America,15.00
+2026-08-03,Linen Tote Bag,UK,32.00
+2026-08-03,Ceramic Mug,North America,21.60
+2026-08-03,Soy Candle,Asia Pacific,18.00
+2026-08-04,Ceramic Mug,North America,48.00
+2026-08-04,Notebook Set,North America,30.00
+2026-08-04,Linen Tote Bag,UK,32.00
+2026-08-04,Enamel Pin Pack,UK,32.40
+2026-08-04,Notebook Set,UK,15.00
+2026-08-04,Soy Candle,North America,16.20
+2026-08-04,Linen Tote Bag,Europe,32.00
+2026-08-04,Leather Card Holder,North America,38.00
+2026-08-04,Soy Candle,North America,18.00
+2026-08-04,Ceramic Mug,Europe,24.00
+2026-08-04,Desk Plant Pot,North America,56.00
+2026-08-04,Soy Candle,Asia Pacific,18.00
+2026-08-04,Linen Tote Bag,North America,32.00
+2026-08-04,Ceramic Mug,North America,24.00
+2026-08-05,Notebook Set,Asia Pacific,30.00
+2026-08-05,Soy Candle,North America,36.00
+2026-08-05,Linen Tote Bag,Asia Pacific,32.00
+2026-08-05,Notebook Set,Europe,15.00
+2026-08-05,Notebook Set,Asia Pacific,30.00
+2026-08-05,Ceramic Mug,North America,24.00
+2026-08-05,Notebook Set,Europe,15.00
+2026-08-05,Linen Tote Bag,North America,32.00
+2026-08-05,Leather Card Holder,Asia Pacific,38.00
+2026-08-05,Soy Candle,Europe,18.00
+2026-08-05,Leather Card Holder,North America,38.00
+2026-08-05,Notebook Set,Europe,15.00
+2026-08-05,Ceramic Mug,Europe,48.00
+2026-08-05,Desk Plant Pot,North America,56.00
+2026-08-06,Soy Candle,North America,18.00
+2026-08-06,Ceramic Mug,UK,24.00
+2026-08-06,Desk Plant Pot,North America,28.00
+2026-08-06,Leather Card Holder,North America,38.00
+2026-08-06,Ceramic Mug,Europe,24.00
+2026-08-06,Enamel Pin Pack,North America,12.00
+2026-08-06,Soy Candle,Asia Pacific,18.00
+2026-08-06,Soy Candle,UK,16.20
+2026-08-06,Soy Candle,North America,36.00
+2026-08-06,Throw Blanket,Europe,68.00
+2026-08-06,Notebook Set,Europe,15.00
+2026-08-06,Ceramic Mug,Europe,24.00
+2026-08-06,Soy Candle,North America,54.00
+2026-08-06,Linen Tote Bag,North America,32.00
+2026-08-06,Linen Tote Bag,UK,32.00
+2026-08-06,Soy Candle,UK,18.00
+2026-08-07,Leather Card Holder,UK,38.00
+2026-08-07,Notebook Set,North America,15.00
+2026-08-07,Desk Plant Pot,North America,56.00
+2026-08-07,Ceramic Mug,North America,48.00
+2026-08-07,Soy Candle,Europe,18.00
+2026-08-07,Ceramic Mug,UK,24.00
+2026-08-07,Notebook Set,UK,15.00
+2026-08-07,Throw Blanket,Europe,68.00
+2026-08-07,Leather Card Holder,UK,34.20
+2026-08-07,Enamel Pin Pack,Asia Pacific,12.00
+2026-08-07,Throw Blanket,Europe,68.00
+2026-08-07,Linen Tote Bag,Europe,32.00
+2026-08-07,Throw Blanket,Europe,68.00
+2026-08-07,Notebook Set,UK,30.00
+2026-08-07,Soy Candle,North America,18.00
+2026-08-07,Soy Candle,Asia Pacific,18.00
+2026-08-07,Enamel Pin Pack,UK,12.00
+2026-08-07,Enamel Pin Pack,North America,12.00
+2026-08-08,Notebook Set,North America,15.00
+2026-08-08,Desk Plant Pot,North America,28.00
+2026-08-08,Throw Blanket,North America,68.00
+2026-08-08,Linen Tote Bag,Europe,32.00
+2026-08-08,Soy Candle,North America,54.00
+2026-08-08,Desk Plant Pot,North America,28.00
+2026-08-08,Leather Card Holder,North America,38.00
+2026-08-08,Linen Tote Bag,North America,32.00
+2026-08-08,Ceramic Mug,Europe,24.00
+2026-08-08,Leather Card Holder,Europe,38.00
+2026-08-08,Desk Plant Pot,North America,28.00
+2026-08-08,Notebook Set,North America,30.00
+2026-08-08,Desk Plant Pot,Europe,28.00
+2026-08-08,Enamel Pin Pack,UK,12.00
+2026-08-08,Enamel Pin Pack,North America,10.80
+2026-08-08,Linen Tote Bag,North America,32.00
+2026-08-08,Desk Plant Pot,North America,28.00
+2026-08-09,Ceramic Mug,Asia Pacific,24.00
+2026-08-09,Linen Tote Bag,Europe,32.00
+2026-08-09,Desk Plant Pot,North America,56.00
+2026-08-09,Ceramic Mug,North America,24.00
+2026-08-09,Ceramic Mug,North America,24.00
+2026-08-09,Ceramic Mug,Europe,24.00
+2026-08-09,Enamel Pin Pack,Asia Pacific,12.00
+2026-08-09,Leather Card Holder,Europe,38.00
+2026-08-09,Ceramic Mug,Europe,24.00
+2026-08-09,Enamel Pin Pack,Europe,36.00
+2026-08-09,Notebook Set,Europe,15.00
+2026-08-09,Soy Candle,North America,18.00
+2026-08-09,Soy Candle,Asia Pacific,18.00
+2026-08-09,Throw Blanket,North America,61.20
+2026-08-09,Enamel Pin Pack,Asia Pacific,12.00
+2026-08-09,Throw Blanket,North America,68.00
+2026-08-09,Enamel Pin Pack,UK,12.00
+2026-08-10,Enamel Pin Pack,North America,24.00
+2026-08-10,Notebook Set,North America,13.50
+2026-08-10,Soy Candle,North America,18.00
+2026-08-10,Soy Candle,North America,18.00
+2026-08-10,Notebook Set,North America,30.00
+2026-08-10,Linen Tote Bag,Europe,28.80
+2026-08-10,Notebook Set,North America,13.50
+2026-08-10,Leather Card Holder,North America,38.00
+2026-08-10,Leather Card Holder,Europe,38.00
+2026-08-10,Ceramic Mug,North America,48.00
+2026-08-10,Notebook Set,Europe,30.00
+2026-08-10,Linen Tote Bag,Europe,32.00
+2026-08-10,Soy Candle,UK,18.00
+2026-08-10,Desk Plant Pot,North America,28.00
+2026-08-10,Notebook Set,North America,15.00
+2026-08-10,Notebook Set,North America,15.00
+2026-08-10,Linen Tote Bag,Europe,32.00
+2026-08-11,Desk Plant Pot,North America,28.00
+2026-08-11,Desk Plant Pot,North America,28.00
+2026-08-11,Ceramic Mug,North America,24.00
+2026-08-11,Linen Tote Bag,North America,32.00
+2026-08-11,Soy Candle,Asia Pacific,16.20
+2026-08-11,Enamel Pin Pack,Europe,24.00
+2026-08-11,Soy Candle,North America,18.00
+2026-08-11,Desk Plant Pot,North America,28.00
+2026-08-11,Notebook Set,Europe,30.00
+2026-08-11,Notebook Set,Europe,15.00
+2026-08-11,Soy Candle,Europe,18.00
+2026-08-11,Linen Tote Bag,North America,32.00
+2026-08-11,Linen Tote Bag,Europe,32.00
+2026-08-11,Enamel Pin Pack,UK,12.00
+2026-08-12,Notebook Set,Europe,15.00
+2026-08-12,Notebook Set,UK,15.00
+2026-08-12,Leather Card Holder,Asia Pacific,38.00
+2026-08-12,Notebook Set,North America,15.00
+2026-08-12,Notebook Set,North America,15.00
+2026-08-12,Enamel Pin Pack,North America,12.00
+2026-08-12,Desk Plant Pot,Europe,56.00
+2026-08-12,Linen Tote Bag,Asia Pacific,32.00
+2026-08-12,Ceramic Mug,Europe,24.00
+2026-08-12,Soy Candle,North America,18.00
+2026-08-12,Leather Card Holder,North America,38.00
+2026-08-12,Enamel Pin Pack,Asia Pacific,10.80
+2026-08-12,Notebook Set,North America,15.00
+2026-08-12,Throw Blanket,Europe,61.20
+2026-08-12,Throw Blanket,Europe,68.00
+2026-08-12,Desk Plant Pot,UK,56.00
+2026-08-13,Notebook Set,Asia Pacific,13.50
+2026-08-13,Ceramic Mug,Europe,48.00
+2026-08-13,Soy Candle,UK,36.00
+2026-08-13,Ceramic Mug,North America,24.00
+2026-08-13,Ceramic Mug,UK,24.00
+2026-08-13,Notebook Set,Europe,15.00
+2026-08-13,Ceramic Mug,Europe,72.00
+2026-08-13,Leather Card Holder,North America,38.00
+2026-08-13,Notebook Set,Asia Pacific,15.00
+2026-08-13,Linen Tote Bag,Europe,32.00
+2026-08-13,Desk Plant Pot,Europe,25.20
+2026-08-13,Enamel Pin Pack,Asia Pacific,24.00
+2026-08-13,Throw Blanket,UK,68.00
+2026-08-13,Soy Candle,North America,54.00
+2026-08-13,Leather Card Holder,UK,38.00
+2026-08-13,Enamel Pin Pack,Asia Pacific,12.00
+2026-08-13,Throw Blanket,Europe,61.20
+2026-08-14,Desk Plant Pot,UK,56.00
+2026-08-14,Linen Tote Bag,UK,32.00
+2026-08-14,Desk Plant Pot,Asia Pacific,28.00
+2026-08-14,Soy Candle,North America,18.00
+2026-08-14,Enamel Pin Pack,UK,12.00
+2026-08-14,Linen Tote Bag,North America,32.00
+2026-08-14,Linen Tote Bag,North America,32.00
+2026-08-14,Ceramic Mug,North America,24.00
+2026-08-14,Soy Candle,North America,18.00
+2026-08-14,Ceramic Mug,Asia Pacific,24.00
+2026-08-14,Ceramic Mug,Europe,24.00
+2026-08-14,Enamel Pin Pack,North America,10.80
+2026-08-14,Throw Blanket,North America,68.00
+2026-08-14,Enamel Pin Pack,UK,12.00
+2026-08-14,Ceramic Mug,North America,64.80
+2026-08-14,Notebook Set,Europe,15.00
+2026-08-14,Leather Card Holder,UK,38.00
+2026-08-15,Enamel Pin Pack,Europe,12.00
+2026-08-15,Ceramic Mug,North America,24.00
+2026-08-15,Leather Card Holder,Europe,38.00
+2026-08-15,Soy Candle,UK,48.60
+2026-08-15,Leather Card Holder,North America,38.00
+2026-08-15,Desk Plant Pot,North America,28.00
+2026-08-15,Soy Candle,UK,18.00
+2026-08-15,Soy Candle,North America,32.40
+2026-08-15,Throw Blanket,North America,61.20
+2026-08-15,Linen Tote Bag,UK,32.00
+2026-08-15,Soy Candle,Asia Pacific,18.00
+2026-08-15,Notebook Set,North America,30.00
+2026-08-15,Ceramic Mug,Asia Pacific,24.00
+2026-08-15,Desk Plant Pot,North America,28.00
+2026-08-15,Linen Tote Bag,North America,32.00
+2026-08-15,Ceramic Mug,North America,24.00
+2026-08-15,Linen Tote Bag,North America,32.00
+2026-08-15,Soy Candle,UK,18.00
+2026-08-16,Ceramic Mug,Europe,24.00
+2026-08-16,Soy Candle,Europe,54.00
+2026-08-16,Enamel Pin Pack,North America,24.00
+2026-08-16,Ceramic Mug,Europe,48.00
+2026-08-16,Soy Candle,Asia Pacific,18.00
+2026-08-16,Linen Tote Bag,Europe,32.00
+2026-08-16,Soy Candle,Europe,18.00
+2026-08-16,Linen Tote Bag,North America,32.00
+2026-08-16,Ceramic Mug,UK,24.00
+2026-08-16,Ceramic Mug,UK,21.60
+2026-08-16,Ceramic Mug,Asia Pacific,24.00
+2026-08-16,Enamel Pin Pack,North America,12.00
+2026-08-16,Soy Candle,UK,16.20
+2026-08-16,Leather Card Holder,Asia Pacific,38.00
+2026-08-16,Enamel Pin Pack,UK,12.00
+2026-08-16,Throw Blanket,North America,68.00
+2026-08-16,Soy Candle,Asia Pacific,18.00
+2026-08-17,Throw Blanket,UK,68.00
+2026-08-17,Notebook Set,North America,15.00
+2026-08-17,Ceramic Mug,Asia Pacific,24.00
+2026-08-17,Notebook Set,UK,15.00
+2026-08-17,Linen Tote Bag,North America,32.00
+2026-08-17,Notebook Set,North America,15.00
+2026-08-17,Notebook Set,North America,30.00
+2026-08-17,Notebook Set,Asia Pacific,15.00
+2026-08-17,Ceramic Mug,North America,48.00
+2026-08-18,Notebook Set,North America,13.50
+2026-08-18,Ceramic Mug,UK,24.00
+2026-08-18,Ceramic Mug,UK,24.00
+2026-08-18,Soy Candle,North America,18.00
+2026-08-18,Leather Card Holder,North America,38.00
+2026-08-18,Throw Blanket,North America,61.20
+2026-08-18,Linen Tote Bag,UK,32.00
+2026-08-18,Linen Tote Bag,North America,32.00
+2026-08-18,Ceramic Mug,Asia Pacific,48.00
+2026-08-18,Enamel Pin Pack,North America,24.00
+2026-08-19,Desk Plant Pot,North America,28.00
+2026-08-19,Ceramic Mug,North America,24.00
+2026-08-19,Ceramic Mug,UK,48.00
+2026-08-19,Enamel Pin Pack,North America,12.00
+2026-08-19,Leather Card Holder,North America,38.00
+2026-08-19,Desk Plant Pot,UK,25.20
+2026-08-19,Linen Tote Bag,North America,32.00
+2026-08-19,Soy Candle,North America,18.00
+2026-08-19,Enamel Pin Pack,North America,12.00
+2026-08-20,Linen Tote Bag,North America,32.00
+2026-08-20,Notebook Set,UK,30.00
+2026-08-20,Soy Candle,North America,36.00
+2026-08-20,Desk Plant Pot,North America,28.00
+2026-08-20,Enamel Pin Pack,UK,12.00
+2026-08-20,Soy Candle,UK,54.00
+2026-08-20,Soy Candle,Asia Pacific,18.00
+2026-08-20,Ceramic Mug,Europe,24.00
+2026-08-20,Linen Tote Bag,North America,32.00
+2026-08-21,Soy Candle,North America,18.00
+2026-08-21,Linen Tote Bag,Asia Pacific,32.00
+2026-08-21,Linen Tote Bag,North America,28.80
+2026-08-21,Throw Blanket,North America,68.00
+2026-08-21,Ceramic Mug,UK,64.80
+2026-08-21,Enamel Pin Pack,Asia Pacific,12.00
+2026-08-21,Notebook Set,North America,27.00
+2026-08-21,Ceramic Mug,North America,24.00
+2026-08-21,Soy Candle,North America,18.00
+2026-08-21,Soy Candle,Europe,18.00
+2026-08-22,Soy Candle,UK,18.00
+2026-08-22,Throw Blanket,North America,68.00
+2026-08-22,Soy Candle,Asia Pacific,18.00
+2026-08-22,Notebook Set,UK,15.00
+2026-08-22,Notebook Set,Asia Pacific,30.00
+2026-08-22,Linen Tote Bag,Asia Pacific,32.00
+2026-08-22,Desk Plant Pot,North America,50.40
+2026-08-22,Leather Card Holder,UK,38.00
+2026-08-22,Enamel Pin Pack,North America,12.00
+2026-08-22,Notebook Set,North America,15.00
+2026-08-22,Leather Card Holder,North America,38.00
+2026-08-23,Ceramic Mug,UK,48.00
+2026-08-23,Desk Plant Pot,North America,28.00
+2026-08-23,Leather Card Holder,Asia Pacific,38.00
+2026-08-23,Desk Plant Pot,Asia Pacific,28.00
+2026-08-23,Linen Tote Bag,Asia Pacific,32.00
+2026-08-23,Enamel Pin Pack,UK,12.00
+2026-08-23,Soy Candle,North America,16.20
+2026-08-23,Leather Card Holder,Europe,38.00
+2026-08-23,Throw Blanket,Asia Pacific,68.00
+2026-08-23,Soy Candle,North America,36.00
+2026-08-23,Enamel Pin Pack,North America,24.00
+2026-08-23,Desk Plant Pot,Europe,56.00
+2026-08-24,Soy Candle,Europe,36.00
+2026-08-24,Desk Plant Pot,UK,28.00
+2026-08-24,Soy Candle,Asia Pacific,18.00
+2026-08-24,Notebook Set,Europe,15.00
+2026-08-24,Notebook Set,UK,15.00
+2026-08-24,Linen Tote Bag,North America,32.00
+2026-08-24,Throw Blanket,Europe,68.00
+2026-08-24,Ceramic Mug,North America,24.00
+2026-08-24,Throw Blanket,North America,68.00
+2026-08-24,Linen Tote Bag,Europe,32.00
+2026-08-24,Notebook Set,North America,30.00
+2026-08-24,Desk Plant Pot,Asia Pacific,28.00
+2026-08-24,Desk Plant Pot,Asia Pacific,28.00
+2026-08-24,Enamel Pin Pack,UK,12.00
+2026-08-24,Enamel Pin Pack,UK,36.00
+2026-08-24,Soy Candle,North America,18.00
+2026-08-25,Leather Card Holder,Europe,38.00
+2026-08-25,Soy Candle,North America,18.00
+2026-08-25,Leather Card Holder,North America,38.00
+2026-08-25,Enamel Pin Pack,UK,12.00
+2026-08-25,Notebook Set,Europe,45.00
+2026-08-25,Desk Plant Pot,Asia Pacific,56.00
+2026-08-25,Desk Plant Pot,Europe,28.00
+2026-08-25,Notebook Set,North America,15.00
+2026-08-25,Ceramic Mug,North America,24.00
+2026-08-25,Desk Plant Pot,Europe,28.00
+2026-08-25,Ceramic Mug,North America,24.00
+2026-08-25,Enamel Pin Pack,North America,12.00
+2026-08-25,Leather Card Holder,North America,38.00
+2026-08-25,Enamel Pin Pack,Europe,12.00
+2026-08-25,Linen Tote Bag,UK,32.00
+2026-08-25,Linen Tote Bag,Asia Pacific,32.00
+2026-08-26,Soy Candle,North America,18.00
+2026-08-26,Ceramic Mug,Europe,24.00
+2026-08-26,Enamel Pin Pack,Asia Pacific,10.80
+2026-08-26,Ceramic Mug,North America,24.00
+2026-08-26,Notebook Set,Europe,15.00
+2026-08-26,Enamel Pin Pack,Europe,12.00
+2026-08-26,Leather Card Holder,Asia Pacific,38.00
+2026-08-26,Notebook Set,Asia Pacific,13.50
+2026-08-26,Enamel Pin Pack,Asia Pacific,24.00
+2026-08-26,Soy Candle,UK,18.00
+2026-08-26,Desk Plant Pot,North America,56.00
+2026-08-26,Ceramic Mug,Europe,24.00
+2026-08-26,Ceramic Mug,UK,24.00
+2026-08-27,Linen Tote Bag,UK,32.00
+2026-08-27,Desk Plant Pot,North America,84.00
+2026-08-27,Desk Plant Pot,UK,28.00
+2026-08-27,Ceramic Mug,Europe,24.00
+2026-08-27,Throw Blanket,North America,61.20
+2026-08-27,Enamel Pin Pack,UK,12.00
+2026-08-27,Notebook Set,Asia Pacific,15.00
+2026-08-27,Linen Tote Bag,North America,32.00
+2026-08-27,Ceramic Mug,Asia Pacific,24.00
+2026-08-27,Linen Tote Bag,North America,32.00
+2026-08-27,Soy Candle,North America,16.20
+2026-08-27,Linen Tote Bag,North America,32.00
+2026-08-27,Ceramic Mug,UK,24.00
+2026-08-27,Linen Tote Bag,North America,28.80
+2026-08-28,Notebook Set,North America,15.00
+2026-08-28,Soy Candle,UK,18.00
+2026-08-28,Leather Card Holder,UK,38.00
+2026-08-28,Leather Card Holder,UK,38.00
+2026-08-28,Soy Candle,Europe,18.00
+2026-08-28,Notebook Set,North America,15.00
+2026-08-28,Soy Candle,Asia Pacific,48.60
+2026-08-28,Soy Candle,North America,36.00
+2026-08-28,Soy Candle,Europe,36.00
+2026-08-28,Notebook Set,Europe,13.50
+2026-08-28,Soy Candle,Europe,36.00
+2026-08-28,Ceramic Mug,North America,24.00
+2026-08-28,Ceramic Mug,UK,24.00
+2026-08-28,Enamel Pin Pack,North America,10.80
+2026-08-28,Soy Candle,Europe,18.00
+2026-08-28,Leather Card Holder,North America,38.00
+2026-08-29,Throw Blanket,Europe,68.00
+2026-08-29,Enamel Pin Pack,North America,12.00
+2026-08-29,Notebook Set,North America,15.00
+2026-08-29,Desk Plant Pot,Europe,28.00
+2026-08-29,Ceramic Mug,North America,24.00
+2026-08-29,Throw Blanket,Asia Pacific,68.00
+2026-08-29,Leather Card Holder,North America,38.00
+2026-08-29,Soy Candle,North America,36.00
+2026-08-29,Notebook Set,UK,30.00
+2026-08-29,Desk Plant Pot,North America,28.00
+2026-08-29,Notebook Set,North America,15.00
+2026-08-29,Soy Candle,Europe,54.00
+2026-08-29,Linen Tote Bag,UK,28.80
+2026-08-29,Ceramic Mug,Asia Pacific,24.00
+2026-08-29,Ceramic Mug,North America,24.00
+2026-08-29,Notebook Set,Europe,30.00
+2026-08-29,Linen Tote Bag,North America,32.00
+2026-08-29,Soy Candle,North America,36.00
+2026-08-30,Throw Blanket,North America,68.00
+2026-08-30,Notebook Set,Europe,15.00
+2026-08-30,Linen Tote Bag,Asia Pacific,32.00
+2026-08-30,Soy Candle,North America,18.00
+2026-08-30,Throw Blanket,North America,68.00
+2026-08-30,Enamel Pin Pack,North America,12.00
+2026-08-30,Ceramic Mug,North America,21.60
+2026-08-30,Leather Card Holder,Europe,38.00
+2026-08-30,Linen Tote Bag,Europe,32.00
+2026-08-30,Enamel Pin Pack,Asia Pacific,12.00
+2026-08-30,Throw Blanket,North America,68.00
+2026-08-30,Soy Candle,Europe,16.20
+2026-08-30,Notebook Set,Europe,15.00
+2026-08-30,Ceramic Mug,UK,21.60
+2026-08-30,Linen Tote Bag,Europe,28.80
+2026-08-30,Soy Candle,North America,18.00
+2026-08-30,Ceramic Mug,North America,24.00
+2026-08-31,Leather Card Holder,North America,38.00
+2026-08-31,Notebook Set,Europe,15.00
+2026-08-31,Soy Candle,Europe,16.20
+2026-08-31,Leather Card Holder,UK,38.00
+2026-08-31,Linen Tote Bag,North America,32.00
+2026-08-31,Desk Plant Pot,Asia Pacific,56.00
+2026-08-31,Desk Plant Pot,Europe,50.40
+2026-08-31,Enamel Pin Pack,North America,12.00
+2026-08-31,Enamel Pin Pack,Europe,24.00
+2026-08-31,Enamel Pin Pack,North America,12.00
+2026-08-31,Linen Tote Bag,Europe,32.00
+2026-08-31,Ceramic Mug,Asia Pacific,24.00
+2026-08-31,Soy Candle,UK,18.00
+2026-08-31,Desk Plant Pot,North America,25.20
+2026-08-31,Soy Candle,Europe,18.00
+2026-08-31,Notebook Set,Asia Pacific,13.50
+2026-08-31,Linen Tote Bag,UK,32.00
+2026-09-01,Notebook Set,Asia Pacific,15.00
+2026-09-01,Ceramic Mug,North America,24.00
+2026-09-01,Ceramic Mug,North America,24.00
+2026-09-01,Desk Plant Pot,UK,25.20
+2026-09-01,Linen Tote Bag,Europe,32.00
+2026-09-01,Desk Plant Pot,North America,28.00
+2026-09-01,Ceramic Mug,UK,24.00
+2026-09-01,Soy Candle,North America,18.00
+2026-09-01,Notebook Set,North America,15.00
+2026-09-01,Soy Candle,North America,36.00
+2026-09-01,Throw Blanket,UK,68.00
+2026-09-01,Ceramic Mug,Asia Pacific,72.00
+2026-09-01,Notebook Set,North America,30.00
+2026-09-01,Leather Card Holder,UK,34.20
+2026-09-01,Throw Blanket,Asia Pacific,68.00
+2026-09-01,Enamel Pin Pack,North America,12.00
+2026-09-02,Soy Candle,Europe,16.20
+2026-09-02,Enamel Pin Pack,Europe,12.00
+2026-09-02,Desk Plant Pot,UK,56.00
+2026-09-02,Soy Candle,Europe,18.00
+2026-09-02,Ceramic Mug,UK,24.00
+2026-09-02,Enamel Pin Pack,Asia Pacific,24.00
+2026-09-02,Ceramic Mug,Europe,43.20
+2026-09-02,Enamel Pin Pack,North America,12.00
+2026-09-02,Linen Tote Bag,North America,32.00
+2026-09-02,Linen Tote Bag,Europe,32.00
+2026-09-02,Ceramic Mug,Europe,24.00
+2026-09-02,Soy Candle,UK,18.00
+2026-09-02,Ceramic Mug,Europe,21.60
+2026-09-02,Soy Candle,UK,36.00
+2026-09-03,Ceramic Mug,Europe,24.00
+2026-09-03,Soy Candle,Asia Pacific,54.00
+2026-09-03,Leather Card Holder,North America,38.00
+2026-09-03,Ceramic Mug,Asia Pacific,24.00
+2026-09-03,Soy Candle,North America,18.00
+2026-09-03,Throw Blanket,Asia Pacific,61.20
+2026-09-03,Desk Plant Pot,North America,28.00
+2026-09-03,Throw Blanket,UK,68.00
+2026-09-03,Notebook Set,Europe,30.00
+2026-09-03,Notebook Set,Europe,15.00
+2026-09-03,Ceramic Mug,Asia Pacific,24.00
+2026-09-03,Notebook Set,Asia Pacific,15.00
+2026-09-03,Ceramic Mug,North America,48.00
+2026-09-03,Enamel Pin Pack,North America,12.00
+2026-09-03,Enamel Pin Pack,Asia Pacific,12.00
+2026-09-03,Notebook Set,Europe,15.00
+2026-09-04,Linen Tote Bag,North America,32.00
+2026-09-04,Linen Tote Bag,North America,32.00
+2026-09-04,Enamel Pin Pack,Europe,21.60
+2026-09-04,Ceramic Mug,North America,24.00
+2026-09-04,Notebook Set,North America,15.00
+2026-09-04,Leather Card Holder,UK,38.00
+2026-09-04,Soy Candle,Europe,18.00
+2026-09-04,Soy Candle,North America,18.00
+2026-09-04,Soy Candle,Europe,18.00
+2026-09-04,Enamel Pin Pack,North America,24.00
+2026-09-04,Soy Candle,UK,18.00
+2026-09-04,Notebook Set,North America,30.00
+2026-09-04,Linen Tote Bag,Asia Pacific,32.00
+2026-09-04,Soy Candle,North America,18.00
+2026-09-04,Ceramic Mug,North America,24.00
+2026-09-04,Enamel Pin Pack,North America,12.00
+2026-09-04,Ceramic Mug,Europe,24.00
+2026-09-04,Linen Tote Bag,North America,32.00
+2026-09-05,Desk Plant Pot,UK,25.20
+2026-09-05,Linen Tote Bag,North America,28.80
+2026-09-05,Ceramic Mug,North America,48.00
+2026-09-05,Throw Blanket,North America,68.00
+2026-09-05,Linen Tote Bag,North America,32.00
+2026-09-05,Leather Card Holder,UK,38.00
+2026-09-05,Throw Blanket,UK,68.00
+2026-09-05,Linen Tote Bag,North America,32.00
+2026-09-05,Notebook Set,North America,45.00
+2026-09-05,Linen Tote Bag,Europe,32.00
+2026-09-05,Ceramic Mug,North America,24.00
+2026-09-05,Desk Plant Pot,Europe,56.00
+2026-09-05,Soy Candle,Europe,18.00
+2026-09-05,Linen Tote Bag,North America,32.00
+2026-09-05,Ceramic Mug,UK,24.00
+2026-09-05,Enamel Pin Pack,Europe,12.00
+2026-09-05,Leather Card Holder,North America,38.00
+2026-09-05,Notebook Set,North America,15.00
+2026-09-06,Notebook Set,Asia Pacific,15.00
+2026-09-06,Notebook Set,North America,15.00
+2026-09-06,Leather Card Holder,UK,38.00
+2026-09-06,Throw Blanket,North America,68.00
+2026-09-06,Leather Card Holder,North America,38.00
+2026-09-06,Soy Candle,Europe,16.20
+2026-09-06,Desk Plant Pot,North America,28.00
+2026-09-06,Notebook Set,UK,40.50
+2026-09-06,Ceramic Mug,North America,21.60
+2026-09-06,Soy Candle,Asia Pacific,18.00
+2026-09-06,Soy Candle,North America,16.20
+2026-09-06,Leather Card Holder,Asia Pacific,38.00
+2026-09-06,Throw Blanket,Europe,68.00
+2026-09-06,Linen Tote Bag,Europe,32.00
+2026-09-06,Notebook Set,North America,15.00
+2026-09-06,Desk Plant Pot,North America,28.00
+2026-09-06,Soy Candle,Europe,36.00
+2026-09-07,Ceramic Mug,Europe,72.00
+2026-09-07,Soy Candle,North America,36.00
+2026-09-07,Linen Tote Bag,UK,32.00
+2026-09-07,Soy Candle,Asia Pacific,36.00
+2026-09-07,Throw Blanket,North America,68.00
+2026-09-07,Soy Candle,North America,18.00
+2026-09-07,Ceramic Mug,North America,48.00
+2026-09-07,Desk Plant Pot,North America,28.00
+2026-09-07,Ceramic Mug,Europe,24.00
+2026-09-07,Soy Candle,North America,32.40
+2026-09-07,Desk Plant Pot,Europe,28.00
+2026-09-07,Notebook Set,Asia Pacific,15.00
+2026-09-07,Notebook Set,North America,15.00
+2026-09-07,Desk Plant Pot,Asia Pacific,28.00
+2026-09-07,Ceramic Mug,UK,24.00
+2026-09-07,Linen Tote Bag,UK,32.00
+2026-09-07,Soy Candle,North America,18.00
+2026-09-07,Throw Blanket,Europe,68.00
+2026-09-07,Ceramic Mug,North America,24.00
+2026-09-07,Ceramic Mug,Europe,24.00
+2026-09-07,Throw Blanket,UK,68.00
+2026-09-07,Linen Tote Bag,Asia Pacific,32.00
+2026-09-07,Linen Tote Bag,Europe,32.00
+2026-09-08,Leather Card Holder,Asia Pacific,38.00
+2026-09-08,Notebook Set,Asia Pacific,30.00
+2026-09-08,Linen Tote Bag,North America,32.00
+2026-09-08,Notebook Set,North America,45.00
+2026-09-08,Soy Candle,Europe,18.00
+2026-09-08,Enamel Pin Pack,UK,12.00
+2026-09-08,Desk Plant Pot,UK,56.00
+2026-09-08,Ceramic Mug,North America,24.00
+2026-09-08,Leather Card Holder,UK,38.00
+2026-09-08,Throw Blanket,Asia Pacific,68.00
+2026-09-08,Ceramic Mug,Asia Pacific,24.00
+2026-09-08,Throw Blanket,North America,68.00
+2026-09-08,Soy Candle,UK,18.00
+2026-09-08,Desk Plant Pot,North America,84.00
+2026-09-08,Soy Candle,Europe,18.00
+2026-09-08,Linen Tote Bag,Asia Pacific,32.00
+2026-09-08,Enamel Pin Pack,North America,12.00
+2026-09-08,Soy Candle,North America,48.60
+2026-09-08,Ceramic Mug,Asia Pacific,24.00
+2026-09-08,Throw Blanket,North America,68.00
+2026-09-09,Ceramic Mug,North America,24.00
+2026-09-09,Enamel Pin Pack,Europe,12.00
+2026-09-09,Notebook Set,North America,30.00
+2026-09-09,Enamel Pin Pack,North America,12.00
+2026-09-09,Notebook Set,UK,15.00
+2026-09-09,Enamel Pin Pack,Europe,12.00
+2026-09-09,Throw Blanket,North America,68.00
+2026-09-09,Ceramic Mug,Europe,24.00
+2026-09-09,Soy Candle,North America,18.00
+2026-09-09,Soy Candle,UK,16.20
+2026-09-09,Linen Tote Bag,UK,32.00
+2026-09-09,Notebook Set,Europe,15.00
+2026-09-09,Desk Plant Pot,UK,28.00
+2026-09-09,Throw Blanket,Europe,68.00
+2026-09-09,Soy Candle,Europe,18.00
+2026-09-09,Desk Plant Pot,Europe,28.00
+2026-09-09,Soy Candle,North America,18.00
+2026-09-10,Linen Tote Bag,North America,28.80
+2026-09-10,Throw Blanket,Europe,68.00
+2026-09-10,Leather Card Holder,Asia Pacific,38.00
+2026-09-10,Throw Blanket,North America,68.00
+2026-09-10,Ceramic Mug,Asia Pacific,24.00
+2026-09-10,Throw Blanket,Europe,68.00
+2026-09-10,Notebook Set,North America,15.00
+2026-09-10,Throw Blanket,Asia Pacific,61.20
+2026-09-10,Notebook Set,Asia Pacific,13.50
+2026-09-10,Leather Card Holder,Europe,38.00
+2026-09-10,Throw Blanket,Europe,68.00
+2026-09-10,Desk Plant Pot,Europe,28.00
+2026-09-10,Enamel Pin Pack,UK,36.00
+2026-09-10,Throw Blanket,North America,68.00
+2026-09-10,Notebook Set,North America,27.00
+2026-09-10,Ceramic Mug,Europe,48.00
+2026-09-10,Throw Blanket,North America,68.00
+2026-09-10,Enamel Pin Pack,Europe,12.00
+2026-09-10,Soy Candle,Europe,16.20
+2026-09-10,Ceramic Mug,UK,24.00
+2026-09-10,Notebook Set,North America,15.00
+2026-09-10,Soy Candle,North America,18.00
+2026-09-11,Soy Candle,Asia Pacific,18.00
+2026-09-11,Notebook Set,North America,15.00
+2026-09-11,Soy Candle,North America,18.00
+2026-09-11,Desk Plant Pot,North America,84.00
+2026-09-11,Ceramic Mug,North America,24.00
+2026-09-11,Desk Plant Pot,North America,28.00
+2026-09-11,Throw Blanket,Asia Pacific,68.00
+2026-09-11,Ceramic Mug,North America,72.00
+2026-09-11,Desk Plant Pot,North America,28.00
+2026-09-11,Throw Blanket,UK,61.20
+2026-09-11,Soy Candle,North America,18.00
+2026-09-11,Soy Candle,Europe,18.00
+2026-09-11,Enamel Pin Pack,North America,10.80
+2026-09-11,Throw Blanket,Europe,68.00
+2026-09-11,Linen Tote Bag,North America,32.00
+2026-09-11,Notebook Set,Europe,13.50
+2026-09-11,Ceramic Mug,UK,24.00
+2026-09-11,Desk Plant Pot,North America,28.00
+2026-09-11,Ceramic Mug,UK,48.00
+2026-09-11,Ceramic Mug,Europe,21.60
+2026-09-11,Soy Candle,Europe,54.00
+2026-09-11,Throw Blanket,UK,68.00
+2026-09-11,Soy Candle,UK,18.00
+2026-09-11,Soy Candle,North America,36.00
+2026-09-12,Throw Blanket,Asia Pacific,68.00
+2026-09-12,Soy Candle,North America,18.00
+2026-09-12,Linen Tote Bag,Europe,32.00
+2026-09-12,Notebook Set,North America,15.00
+2026-09-12,Throw Blanket,UK,68.00
+2026-09-12,Soy Candle,UK,18.00
+2026-09-12,Ceramic Mug,North America,24.00
+2026-09-12,Soy Candle,Europe,18.00
+2026-09-12,Notebook Set,North America,15.00
+2026-09-12,Throw Blanket,Europe,68.00
+2026-09-12,Notebook Set,Asia Pacific,13.50
+2026-09-12,Linen Tote Bag,North America,32.00
+2026-09-12,Leather Card Holder,Europe,38.00
+2026-09-12,Linen Tote Bag,North America,32.00
+2026-09-12,Throw Blanket,North America,68.00
+2026-09-12,Leather Card Holder,Asia Pacific,38.00
+2026-09-12,Desk Plant Pot,Europe,28.00
+2026-09-12,Linen Tote Bag,Europe,32.00
+2026-09-12,Desk Plant Pot,North America,28.00
+2026-09-12,Soy Candle,UK,18.00
+2026-09-12,Throw Blanket,Europe,68.00
+2026-09-12,Soy Candle,North America,18.00
+2026-09-12,Ceramic Mug,North America,24.00
+2026-09-12,Soy Candle,North America,18.00
+2026-09-12,Soy Candle,North America,18.00
+2026-09-12,Linen Tote Bag,Asia Pacific,28.80
+2026-09-12,Notebook Set,UK,15.00
+2026-09-12,Leather Card Holder,Europe,34.20
+2026-09-12,Linen Tote Bag,North America,32.00
+2026-09-13,Throw Blanket,North America,61.20
+2026-09-13,Notebook Set,UK,15.00
+2026-09-13,Leather Card Holder,North America,38.00
+2026-09-13,Soy Candle,North America,16.20
+2026-09-13,Linen Tote Bag,North America,32.00
+2026-09-13,Notebook Set,Europe,15.00
+2026-09-13,Soy Candle,Europe,18.00
+2026-09-13,Soy Candle,Europe,16.20
+2026-09-13,Ceramic Mug,Asia Pacific,43.20
+2026-09-13,Leather Card Holder,North America,38.00
+2026-09-13,Enamel Pin Pack,Europe,12.00
+2026-09-13,Leather Card Holder,Asia Pacific,38.00
+2026-09-13,Linen Tote Bag,Europe,32.00
+2026-09-13,Notebook Set,North America,40.50
+2026-09-13,Soy Candle,North America,54.00
+2026-09-13,Leather Card Holder,UK,38.00
+2026-09-13,Enamel Pin Pack,Europe,12.00
+2026-09-13,Soy Candle,Asia Pacific,36.00
+2026-09-13,Ceramic Mug,UK,72.00
+2026-09-13,Soy Candle,UK,18.00
+2026-09-13,Soy Candle,North America,18.00
+2026-09-13,Soy Candle,North America,18.00
+2026-09-13,Throw Blanket,North America,68.00
+2026-09-13,Soy Candle,Europe,18.00
+2026-09-13,Throw Blanket,North America,68.00
+2026-09-13,Notebook Set,UK,15.00
+2026-09-13,Linen Tote Bag,North America,32.00
+2026-09-13,Leather Card Holder,UK,34.20

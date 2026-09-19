@@ -1,0 +1,399 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>MondayBrief weekly sales brief, {{ brief.week.label }}</title>
+<style>
+  /* Tokens follow SalesPulse (same studio, same visual language): light surface,
+     one green accent, flat, hairline borders, system font stack. */
+  :root {
+    --ink: #14161A;
+    --muted: #6B7280;
+    --muted-on-tint: #4B5563;
+    --line: #E4E6EA;
+    --surface: #FFFFFF;
+    --accent: #0F7A4D;
+    --accent-tint: #F3FBF7;
+    --accent-line: #A7E3C5;
+    --down: #D92D20;
+    --radius: 14px;   /* containers; small tags use 6px */
+
+    /* Vertical rhythm. render_pdf switches to the .compact values below only when the
+       report would otherwise run past one page (wider fallback fonts, longer text). */
+    --gap-section: 18px;
+    --gap-rule: 14px;
+    --gap-kpis: 18px;
+    --pad-kpi: 14px 18px 15px;
+    --pad-summary: 18px 24px 20px;
+    --gap-list: 8px;
+    --gap-days: 12px;
+    --leading: 1.5;
+  }
+
+  html.compact {
+    --gap-section: 12px;
+    --gap-rule: 10px;
+    --gap-kpis: 12px;
+    --pad-kpi: 10px 16px 11px;
+    --pad-summary: 14px 22px 15px;
+    --gap-list: 5px;
+    --gap-days: 8px;
+    --leading: 1.42;
+  }
+
+  @page {
+    size: A4;
+    margin: {{ margin_y_mm }}mm {{ margin_x_mm }}mm;
+  }
+
+  * { box-sizing: border-box; }
+
+  html {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  body {
+    margin: 0;
+    background: var(--surface);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, 'Liberation Sans', 'DejaVu Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  h1, h2, h3, p, ol, dl, dd { margin: 0; padding: 0; }
+  ol { list-style: none; }
+
+  /* One column, exactly the text width of the page, so the chart PNG prints at 1:1 */
+  .page {
+    width: {{ content_width_mm }}mm;
+    min-height: {{ page_min_height_mm }}mm;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  section { break-inside: avoid; }
+
+  .section-title {
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 1.25;
+    letter-spacing: -0.005em;
+    text-wrap: balance;
+  }
+  .section-sub {
+    margin-top: 2px;
+    font-size: 13px;
+    color: var(--muted);
+  }
+
+  /* ---------- Masthead ---------- */
+  .masthead {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid var(--line);
+  }
+  .brand { display: flex; align-items: center; gap: 12px; }
+  .mark { width: 34px; height: 34px; flex-shrink: 0; }
+  .masthead-text { display: flex; flex-direction: column; }
+  .masthead-text--end { text-align: right; }
+  .masthead-strong {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    line-height: 1.2;
+  }
+  .masthead-quiet {
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--muted);
+    line-height: 1.3;
+  }
+
+  /* ---------- Key numbers ---------- */
+  .kpis {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 12px;
+    margin-top: var(--gap-kpis);
+  }
+  .kpi {
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: var(--pad-kpi);
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+  }
+  /* The chip sits after the label, and drops to its own line rather than squeezing a long
+     label ("Average order value") into three. */
+  .kpi-head {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 4px 8px;
+    min-height: 22px;
+  }
+  .kpi-label { font-size: 13.5px; color: var(--muted); white-space: nowrap; }
+  .flag {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1;
+    padding: 4px 7px;
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    color: var(--muted-on-tint);
+    white-space: nowrap;
+  }
+  .kpi-value {
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    line-height: 1.15;
+    font-variant-numeric: proportional-nums;
+  }
+  .kpi-trend {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 13.5px;
+    color: var(--muted);
+  }
+  .kpi-trend svg { width: 10px; height: 10px; flex-shrink: 0; }
+  .kpi-delta { font-weight: 600; }
+  .kpi-trend--up .kpi-delta, .kpi-trend--up svg { color: var(--accent); }
+  .kpi-trend--down .kpi-delta, .kpi-trend--down svg { color: var(--down); }
+  .kpi-trend--flat svg { color: var(--muted); }
+
+  /* ---------- Chart ---------- */
+  .chart { margin-top: var(--gap-section); padding-top: var(--gap-rule); border-top: 1px solid var(--line); }
+  .chart-img { display: block; width: 100%; height: auto; margin-top: 8px; }
+  .chart-empty {
+    margin-top: 12px;
+    padding: 28px 24px;
+    background: #FAFAF9;
+    border-radius: var(--radius);
+    color: var(--muted);
+    font-size: 13.5px;
+    text-align: center;
+  }
+
+  /* ---------- Products and days ---------- */
+  .duo {
+    display: grid;
+    grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+    gap: 28px;
+    margin-top: var(--gap-section);
+    padding-top: var(--gap-rule);
+    border-top: 1px solid var(--line);
+  }
+  .product-list { margin-top: 10px; display: flex; flex-direction: column; gap: var(--gap-list); }
+  .product {
+    display: grid;
+    grid-template-columns: 14px minmax(0, 1fr) 64px 56px 32px;
+    align-items: center;
+    column-gap: 8px;
+    font-size: 13.5px;
+  }
+  .product-rank { color: var(--muted); font-variant-numeric: tabular-nums; }
+  .product-name { overflow-wrap: anywhere; }
+  .product-bar { display: block; height: 6px; }
+  .product-bar i {
+    display: block;
+    height: 100%;
+    background: var(--accent);
+    border-radius: 3px;
+  }
+  .product-revenue { text-align: right; font-weight: 600; font-variant-numeric: tabular-nums; }
+  .product-share { text-align: right; color: var(--muted); font-variant-numeric: tabular-nums; }
+
+  .days-list { margin-top: 10px; display: flex; flex-direction: column; gap: var(--gap-days); }
+  .day dt { font-size: 13px; color: var(--muted); }
+  .day-name { font-size: 16px; font-weight: 600; line-height: 1.3; }
+  .day-meta { font-size: 13.5px; color: var(--muted); }
+
+  /* ---------- Summary ---------- */
+  .summary {
+    margin-top: var(--gap-section);
+    padding: var(--pad-summary);
+    background: var(--accent-tint);
+    border: 1px solid var(--accent-line);
+    border-radius: var(--radius);
+  }
+  .summary-text {
+    margin-top: 8px;
+    max-width: 72ch;
+    font-size: 14px;
+    line-height: var(--leading);
+    text-wrap: pretty;
+  }
+  .action {
+    margin-top: 14px;
+    padding-top: 12px;
+    border-top: 1px solid var(--accent-line);
+  }
+  .action-title { font-size: 13.5px; font-weight: 600; color: var(--accent); }
+  .action-text {
+    margin-top: 3px;
+    max-width: 72ch;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: var(--leading);
+    text-wrap: pretty;
+  }
+
+  /* ---------- Colophon ---------- */
+  .colophon {
+    margin-top: auto;
+    padding-top: 12px;
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    font-size: 12px;
+    color: var(--muted);
+  }
+</style>
+</head>
+<body>
+{%- set flagged = brief.anomalies | map(attribute='metric') | list %}
+{%- set m = brief.metrics %}
+{%- macro trend(pct, previous) %}
+  {%- set t = pct | trend %}
+  <p class="kpi-trend kpi-trend--{{ t }}">
+    {%- if t == 'up' %}
+    <svg viewBox="0 0 12 12" aria-hidden="true"><path d="M6 3l4 6H2z" fill="currentColor"/></svg>
+    {%- elif t == 'down' %}
+    <svg viewBox="0 0 12 12" aria-hidden="true"><path d="M6 9L2 3h8z" fill="currentColor"/></svg>
+    {%- elif t == 'flat' %}
+    <svg viewBox="0 0 12 12" aria-hidden="true"><rect x="2" y="5" width="8" height="2" rx="1" fill="currentColor"/></svg>
+    {%- endif %}
+    {%- if t == 'none' %}
+    <span>No earlier week to compare</span>
+    {%- else %}
+    <span class="kpi-delta">{{ pct | delta }}</span>
+    <span>from {{ previous }}</span>
+    {%- endif %}
+  </p>
+{%- endmacro %}
+{%- macro flag(key) %}
+  {%- if key in flagged %}<span class="flag">Moved over {{ threshold }}%</span>{% endif %}
+{%- endmacro %}
+
+<main class="page">
+
+  <header class="masthead">
+    <div class="brand">
+      <svg class="mark" viewBox="0 0 34 34" fill="none" aria-hidden="true">
+        <rect width="34" height="34" rx="8" fill="#0F7A4D"/>
+        <path d="M9 24V11l8 8.5L25 11v13" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      <div class="masthead-text">
+        <p class="masthead-strong">MondayBrief</p>
+        <h1 class="masthead-quiet">Weekly sales brief</h1>
+      </div>
+    </div>
+    <div class="masthead-text masthead-text--end">
+      <p class="masthead-strong">{{ brief.week.label }}</p>
+      <p class="masthead-quiet">{% if brief.previous_week.has_orders %}Compared with {{ brief.previous_week.label }}{% else %}No earlier week in the data{% endif %}</p>
+    </div>
+  </header>
+
+  <section class="kpis" aria-label="Key numbers">
+    <article class="kpi">
+      <div class="kpi-head"><p class="kpi-label">Revenue</p>{{ flag('revenue') }}</div>
+      <p class="kpi-value">{{ m.revenue.this_week | money }}</p>
+      {{ trend(m.revenue.change_pct, m.revenue.last_week | money) }}
+    </article>
+    <article class="kpi">
+      <div class="kpi-head"><p class="kpi-label">Orders</p>{{ flag('orders') }}</div>
+      <p class="kpi-value">{{ m.orders.this_week | number }}</p>
+      {{ trend(m.orders.change_pct, m.orders.last_week | number) }}
+    </article>
+    <article class="kpi">
+      <div class="kpi-head"><p class="kpi-label">Average order value</p>{{ flag('aov') }}</div>
+      <p class="kpi-value">{{ m.aov.this_week | money(2) }}</p>
+      {{ trend(m.aov.change_pct, m.aov.last_week | money(2) if m.aov.last_week is not none else '') }}
+    </article>
+  </section>
+
+  <section class="chart">
+    <h2 class="section-title">Weekly revenue</h2>
+    {%- set weeks = brief.weekly_revenue | length %}
+    <p class="section-sub">{% if weeks > 1 %}Last {{ weeks }} weeks, by week starting Monday{% else %}Only one week of data so far{% endif %}</p>
+    {%- if chart_b64 %}
+    <img class="chart-img" src="data:image/png;base64,{{ chart_b64 }}" alt="{{ chart_alt }}">
+    {%- else %}
+    <p class="chart-empty">The weekly chart appears once there are two weeks of data.</p>
+    {%- endif %}
+  </section>
+
+  <div class="duo">
+    <section class="products">
+      <h2 class="section-title">Top products</h2>
+      <p class="section-sub">By revenue this week</p>
+      {%- set top = brief.top_products[0].share_pct %}
+      <ol class="product-list">
+        {%- for p in brief.top_products %}
+        <li class="product">
+          <span class="product-rank">{{ p.rank }}</span>
+          <span class="product-name">{{ p.product }}</span>
+          <span class="product-bar" aria-hidden="true"><i style="width: {{ (p.share_pct / top * 100) | round(1) if top else 0 }}%"></i></span>
+          <span class="product-revenue">{{ p.revenue | money }}</span>
+          <span class="product-share">{{ p.share_pct | round | int }}%</span>
+        </li>
+        {%- endfor %}
+      </ol>
+    </section>
+
+    <section class="days">
+      {%- if brief.best_day.date != brief.worst_day.date %}
+      <h2 class="section-title">Best and quietest day</h2>
+      <p class="section-sub">By revenue</p>
+      <dl class="days-list">
+        <div class="day">
+          <dt>Best day</dt>
+          <dd class="day-name">{{ brief.best_day.weekday }}, {{ brief.best_day.date | short_date }}</dd>
+          <dd class="day-meta">{{ brief.best_day.revenue | money }} from {{ brief.best_day.orders }} orders</dd>
+        </div>
+        <div class="day">
+          <dt>Quietest day</dt>
+          <dd class="day-name">{{ brief.worst_day.weekday }}, {{ brief.worst_day.date | short_date }}</dd>
+          <dd class="day-meta">{{ brief.worst_day.revenue | money }} from {{ brief.worst_day.orders }} orders</dd>
+        </div>
+      </dl>
+      {%- else %}
+      <h2 class="section-title">Busiest day</h2>
+      <p class="section-sub">Only one day of data so far</p>
+      <dl class="days-list">
+        <div class="day">
+          <dt>Day</dt>
+          <dd class="day-name">{{ brief.best_day.weekday }}, {{ brief.best_day.date | short_date }}</dd>
+          <dd class="day-meta">{{ brief.best_day.revenue | money }} from {{ brief.best_day.orders }} orders</dd>
+        </div>
+      </dl>
+      {%- endif %}
+    </section>
+  </div>
+
+  <section class="summary">
+    <h2 class="section-title">Summary</h2>
+    <p class="summary-text">{{ brief.summary_parts.overview }}</p>
+    <div class="action">
+      <h3 class="action-title">Recommended action</h3>
+      <p class="action-text">{{ brief.summary_parts.action }}</p>
+    </div>
+  </section>
+
+  <footer class="colophon">
+    <p>Weeks run Monday to Sunday. Figures in USD.</p>
+    <p>Prepared {{ generated_on }}</p>
+  </footer>
+
+</main>
+</body>
+</html>

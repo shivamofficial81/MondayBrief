@@ -1,0 +1,91 @@
+# MondayBrief: builds the weekly sales brief and commits it to reports/YYYY-MM-DD.pdf.
+#
+# Runs every Monday at 09:00 UTC, and on demand from the Actions tab ("Run workflow").
+# Until you set the SALES_DATA_URL repository variable it reports on the bundled sample
+# data, so the workflow works the moment it is pushed. See the README for pointing it
+# at your own Google Sheet and for the (disabled) email step at the bottom.
+
+name: Weekly report
+
+on:
+  schedule:
+    - cron: "0 9 * * 1" # Mondays, 09:00 UTC (GitHub cron is always UTC)
+  workflow_dispatch:
+    inputs:
+      week:
+        description: "Report on the Monday-to-Sunday week containing this date (YYYY-MM-DD). Leave empty for the latest week."
+        required: false
+        type: string
+
+permissions:
+  contents: write # commit the PDF back to the repository
+
+concurrency:
+  group: weekly-report # two runs must not race to push
+  cancel-in-progress: false
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      # --with-deps also installs the system libraries and fonts Chromium needs on Linux.
+      - name: Install Playwright Chromium
+        run: python -m playwright install --with-deps chromium
+
+      # Computed once so every later step agrees on the file name, even across midnight UTC.
+      - name: Get the report date
+        id: date
+        run: echo "date=$(date -u +%F)" >> "$GITHUB_OUTPUT"
+
+      - name: Generate the report
+        env:
+          SALES_DATA_URL: ${{ vars.SALES_DATA_URL }} # empty means "use the sample data"
+          WEEK: ${{ inputs.week }}
+          REPORT_DATE: ${{ steps.date.outputs.date }}
+        run: |
+          mkdir -p reports
+          args=(--out "reports/${REPORT_DATE}.pdf")
+          if [ -n "${WEEK}" ]; then args+=(--week "${WEEK}"); fi
+          python -m src.render_pdf "${args[@]}"
+
+      - name: Commit the report
+        env:
+          REPORT_DATE: ${{ steps.date.outputs.date }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "reports/${REPORT_DATE}.pdf"
+          # `status --porcelain` compares file hashes. `git diff --quiet` can call two different
+          # PDFs equal on machines that diff PDFs as extracted text (Git for Windows does).
+          if [ -z "$(git status --porcelain -- "reports/${REPORT_DATE}.pdf")" ]; then
+            echo "Nothing new to commit."
+          else
+            git commit -m "Add weekly report ${REPORT_DATE}"
+            git pull --rebase
+            git push
+          fi
+
+      # EMAIL DELIVERY IS DISABLED. The project needs no credentials to run, and this step
+      # never runs as shipped. To turn it on, follow "Enable email" in the README, then
+      # change `false` below to `true`.
+      - name: Email the report (disabled)
+        if: ${{ false }}
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          MAIL_FROM: ${{ vars.MAIL_FROM }}
+          MAIL_TO: ${{ vars.MAIL_TO }}
+          REPORT_DATE: ${{ steps.date.outputs.date }}
+        run: python -m src.send_report "reports/${REPORT_DATE}.pdf"
